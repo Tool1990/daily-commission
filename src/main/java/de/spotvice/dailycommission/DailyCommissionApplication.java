@@ -1,4 +1,4 @@
-package de.spotvice.testproject.testartifact;
+package de.spotvice.dailycommission;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,11 +10,11 @@ import org.springframework.context.annotation.Bean;
 import javax.ws.rs.core.Application;
 
 @SpringBootApplication
-public class TestartifactApplication {
+public class DailyCommissionApplication {
     private static final Logger log = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(TestartifactApplication.class, args);
+        SpringApplication.run(DailyCommissionApplication.class, args);
     }
 
     @Bean

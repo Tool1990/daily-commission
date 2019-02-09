@@ -1,4 +1,4 @@
-package de.spotvice.testproject.testartifact;
+package de.spotvice.dailycommission;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

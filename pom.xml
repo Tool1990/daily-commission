@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>de.spotvice.testproject</groupId>
-	<artifactId>testartifact</artifactId>
+	<artifactId>daily-commission</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>testartifact</name>
+	<name>Daily Commission</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

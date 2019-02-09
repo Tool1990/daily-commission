@@ -1,4 +1,4 @@
-package de.spotvice.testproject.testartifact;
+package de.spotvice.dailycommission;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

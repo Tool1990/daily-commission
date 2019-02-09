@@ -1,4 +1,4 @@
-package de.spotvice.testproject.testartifact;
+package de.spotvice.dailycommission;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
