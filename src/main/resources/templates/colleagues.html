@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>List Colleagues</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+</head>
+<body>
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>Vorname</th>
+            <th>Nachname</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${colleagues == null || colleagues.isEmpty()}">
+            <td colspan="2">Liste leer</td>
+        </tr>
+        <tr th:each="colleague : ${colleagues}">
+            <td><span th:text="${colleague.firstName}">Vorname</span></td>
+            <td><span th:text="${colleague.lastName}">Nachname</span></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <a th:href="@{/colleague_add}">Add</a>
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package de.spotvice.dailycommission;
+package de.spotvice.dailycommission.colleague;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

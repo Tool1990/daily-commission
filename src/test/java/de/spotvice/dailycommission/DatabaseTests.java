@@ -1,5 +1,7 @@
 package de.spotvice.dailycommission;
 
+import de.spotvice.dailycommission.colleague.Colleague;
+import de.spotvice.dailycommission.colleague.ColleagueRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -13,8 +15,7 @@ import javax.ws.rs.core.Application;
 
 import static org.junit.Assert.assertEquals;
 
-/**f
- * <p>
+/**
  * For testing with actual database: @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
  */
 @RunWith(SpringRunner.class)

@@ -1,8 +1,9 @@
-package de.spotvice.dailycommission;
+package de.spotvice.dailycommission.colleague;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 import java.util.UUID;
 
 @Entity
@@ -10,13 +11,15 @@ public class Colleague {
     @Id
     @GeneratedValue
     private UUID id;
+    @NotBlank(message = "Name is mandatory")
     private String firstName;
+    @NotBlank(message = "Name is mandatory")
     private String lastName;
 
     public Colleague() {
     }
 
-    Colleague(String firstName, String lastName) {
+    public Colleague(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
