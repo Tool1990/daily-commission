@@ -5,9 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.UUID;
 
-/**
- * Created by Thomas Engelhard
- */
 @Entity
 public class Colleague {
     @Id

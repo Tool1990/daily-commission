@@ -13,8 +13,7 @@ import javax.ws.rs.core.Application;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by Thomas Engelhard
+/**f
  * <p>
  * For testing with actual database: @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
  */
